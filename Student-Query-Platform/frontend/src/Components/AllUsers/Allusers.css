@@ -1,0 +1,28 @@
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.search-box {
+  margin-top: 10px;
+  margin-left: 31%;
+}
+
+.search-box input {
+  width: 55%;
+  height: 45px;
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 1260px), (min-width: 1260px) {
+  .main-box {
+    justify-content: space-around;
+    /* margin: 40px; */
+  }
+}

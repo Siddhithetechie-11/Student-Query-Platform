@@ -1,0 +1,87 @@
+.upper-part {
+     width: 100%;
+     height: 35vh;
+     background: url("banner.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-top: 100px;
+     margin-bottom: 15px;
+     
+   }
+   
+   .description {
+     text-align: center;
+   }
+   
+   .description h1 {
+     color: white;
+     word-spacing: 3px;
+     font-size: 45px;
+   }
+   
+   .description p {
+     color: white;
+     font-weight: 500;
+     margin-top: 10px;
+     font-size: 20px;
+   }
+   
+   .description input {
+     width: 55%;
+     height: 45px;
+     margin-top: 15px;
+     color: black;
+     font-size: 15px;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+   }
+   
+   .description button {
+     padding: 12px 20px;
+     background-color: #cf2e2e;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     color: white;
+     margin-left: 10px;
+     font-size: 16px;
+   }
+  
+  /* .description button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-out;
+  } */
+   
+   @media screen and (max-width:580px){
+     .upper-part{
+       height: 35vh;
+     }
+   
+     .description{
+       margin-top: -10%;
+     }
+   
+     .input-container{
+       height: 30%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+     }
+     .description input{
+       margin-bottom: 25px;
+     }
+   }
+   
+   @media screen and (max-width:385px){
+     .upper-part{
+       height: 40vh;
+     }
+     .description{
+       margin-top: -18%;
+     }
+   }
+   
+   

@@ -1,0 +1,120 @@
+footer{
+	font-size: 62.5%;
+}
+:root{
+	--black: #000000;
+	--light-red: #cf2e2e;
+}
+.footer-container{
+	width: 100vw;
+	background-color: #edebed8c;
+	display: flex;
+	justify-content: space-around;
+	padding: 5rem 0 3rem 0;
+  margin-top: 60px;
+}
+
+/*footer left side start*/
+.footer-logo{
+	/*background-color: yellowgreen;*/
+	width: 20vw;
+	margin-left: 7rem;
+}
+
+.footer-logo h2{
+	font-size: 2rem;
+}
+.footer-logo p{
+	font-size: large;
+	color: #6e6b6b;
+	padding: 1.5rem 0rem;
+	line-height: 2.1rem;
+}
+.footer-logo a{
+	text-decoration: none;
+}
+.fa{
+	background-color: var(--black);
+	color: #ffffff;
+	padding: .6rem;
+	border-radius: .3rem;
+}
+.icons{
+	margin: 0rem 1.5rem;
+}
+/*footer left side ends*/
+/*footer center starts*/
+.footer-links{
+	width: 32vw;
+	display: flex;
+	justify-content: space-between;
+	font-size: large;
+}
+.footer-links ul a li{
+	list-style-type: none;
+	padding: 0.6rem 0rem;
+}
+.footer-links ul a{
+	text-decoration: none;
+	color: #6e6b6b;
+}	
+/*footer center ends*/
+
+/*footer right section*/
+.footer-contactus{
+	width: 17vw;
+}
+.footer-contactus h2{
+	font-size: large;
+}
+.footer-contactus button{
+		padding: 10px 15px;
+    font-size: 1rem;
+    background: var(--light-red);
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    margin-top: 1.6rem;
+    cursor: pointer;
+}
+.copywright-tag{
+	background-color: lightgray;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+
+/*=========================responsive design============================*/
+@media(max-width: 986px){
+	html{
+		font-size: 55%;
+	}
+}
+@media(max-width: 800px){
+	.footer-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-logo{
+		width: 79vw;
+		margin-bottom: 3rem;
+		margin-left: 0rem;
+	}
+	.footer-links{
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-links h3{
+		font-size: 2.4rem;
+		margin: 1rem 0px;
+	}
+	.footer-contactus{
+		width: 21vw;
+		margin-top: 2.4rem;
+		text-align: center;
+	}
+	.footer-contactus h2{
+		font-size: 2.5rem;
+	}
+}

@@ -1,0 +1,92 @@
+.signup {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid grey;
+  padding-top: 50px;
+}
+.signup h1 {
+  font-weight: 200;
+  margin-left: 10px;
+}
+.signup-form {
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 10px;
+}
+
+.register {
+  text-align: center;
+}
+
+.register h2 {
+  border-bottom: 1px solid gray;
+  color: #cf2e2e;
+}
+
+.register input {
+  width: 57%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.register button {
+  padding: 12px 160px;
+  background-color: #cf2e2e;
+  color: white;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 10px;
+}
+.pic-shift {
+  margin-left: 40%;
+  margin-top: 12px;
+}
+
+@media screen  and (max-width:700px){
+  .signup{
+       width: 100%;
+       height: 12vh;
+       background-color:rgb(238,238,238);
+       border: 1px solid grey;
+       padding-top: 50px;
+   }
+   .signup h1{
+       font-weight: 200;
+       margin-left: 10px;  
+          
+   
+   }
+   .signup-form{
+          width: 65%;
+          margin-left: 17%;
+          margin-top: 10px;
+   }
+   
+   .register{
+         text-align: center;
+   }
+   
+   
+   .register h2{
+        border-bottom: 1px solid gray;
+        color: #cf2e2e;
+   }
+   
+   .register input{
+        width: 60%;
+        height: 30px;
+        margin-top: 10px;
+   }
+   
+   .register button{
+        padding: 12px 23px ;
+        background-color: #cf2e2e;
+        color: white;
+        margin-top: 8px;
+   }
+   .pic-shift{
+        margin-left: 37%;
+        margin-top: 12px;
+   }
+}
